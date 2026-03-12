@@ -81,7 +81,7 @@ ml-deploy/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/sarthakchauhan255-hub/tips-prediction-ml.git
+git clone https://github.com/abhinavsharma8040-ai/tips-prediction-ml.git
 cd tips-prediction-ml
 ```
 
