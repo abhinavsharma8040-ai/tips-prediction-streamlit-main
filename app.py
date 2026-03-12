@@ -1,12 +1,25 @@
 import streamlit as st
-import pandas as pd
 import pickle
-import seaborn as sns
-import plotly.express as px
-import plotly.graph_objects as go
-import numpy as np
-import time
-import streamlit.components.v1 as components
+import pandas as pd
+model = pickle.load(open('tips_model.pkl','rb'))
+st.title("Tip Prediction App")
+total_bill = st.number_input("Total Bill")
+size = st.number_input("Size")
+sex = st.selectbox("Sex",['Male','Female'])
+smoker = st.selectbox("smoker",['Yes','No'])
+day = st.selectbox("Day",['Thur','Friday','Saturday','Sunday'])
+time = st.selectbox("Time",['Lunch','Dinner'])
+input_data = pd.DataFrame({
+'total_bill':[total_bill],
+'size':[size],
+'sex' :[sex],
+'smoker':[smoker],
+'day' :[day],
+'time':[time]
+})
+if st.button("Predict Tip"):
+ prediction = model.predict(input_data)
+ st.success(f"Predicted Tip:{prediction[0]:2f}")
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
