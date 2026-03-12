@@ -4,7 +4,7 @@ A **Machine Learning web application** that predicts the **tip amount** based on
 
 The application is built using **Python, Scikit-Learn, and Streamlit**, providing an interactive user interface where users can input bill information and instantly receive a predicted tip.
 ## 🌐 Live Demo
-https://tips-prediction-app-mgghwbanbqm69omeabraju.streamlit.app
+https://tips-prediction-app-main-wrvkcdza9lucx9f9p2jy9g.streamlit.app/
 
 ---
 
