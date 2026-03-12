@@ -122,7 +122,7 @@ http://localhost:8501
 After deployment on **Streamlit Cloud**, the app will be available at:
 
 ```
-https://tips-prediction-app-mgghwbanbqm69omeabraju.streamlit.app
+https://tips-prediction-app-main-wrvkcdza9lucx9f9p2jy9g.streamlit.app/
 ```
 
 ---
