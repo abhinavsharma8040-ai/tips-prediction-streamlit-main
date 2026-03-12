@@ -151,7 +151,7 @@ Predicted Tip: $4.02
 
 ## 👨‍💻 Author
 
-**Sarthak Chauhan**
+**Abhinav Sharma**
 
 Computer Science Student | Machine Learning Enthusiast
 
